@@ -10,6 +10,14 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+
+\usepackage{epigraph}
+\renewcommand\textflush{flushright}
+\usepackage{etoolbox}
+\setlength\epigraphrule{0pt}
+\setlength\epitextskip{2ex}
+\setlength\epigraphwidth{.8\textwidth}
+
 \usepackage{graphicx}
 \usepackage[outdir=../out/pdf-images/]{epstopdf}
 \DeclareGraphicsExtensions{.jpg,.png,.gif}
@@ -34,7 +42,7 @@
 
 \input{chapters/00_author_foreword}
 \input{chapters/01_introduction}
-\input{chapters/02_new_science_time}
+\input{chapters/02_inside_atom}
 \input{chapters/03_manhattan_project}
 \input{chapters/04_why_math}
 \input{links}
