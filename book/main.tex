@@ -2,14 +2,16 @@
 \linespread{1.25}
 
 \usepackage[utf8]{inputenc}
+\raggedbottom
 
 \usepackage[russian]{babel}
 \usepackage{indentfirst}
 \usepackage{misccorr}
 
+\pdfminorversion=7
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-
 
 \usepackage{epigraph}
 \renewcommand\textflush{flushright}
@@ -17,12 +19,13 @@
 \setlength\epigraphrule{0pt}
 \setlength\epigraphwidth{.8\textwidth}
 
-\usepackage{graphicx}
-\usepackage[outdir=../out/pdf-images/]{epstopdf}
+\usepackage[pdftex]{graphicx}
+\usepackage[outdir=../../out/]{epstopdf}
+
 \DeclareGraphicsExtensions{.jpg,.png,.gif}
 
 \usepackage[top = 4cm, bottom = 4cm, left = 3cm, right = 3cm]{geometry}
-%\usepackage{amsfonts}
+\usepackage{amsfonts}
 %\usepackage[outdir=../out/pdf-images/]{epstopdf}
 %\usepackage{url}
 %\usepackage{amssymb}
